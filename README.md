@@ -58,6 +58,7 @@ Support des lectures standard et avec buffer personnalisé
 Gestion robuste des cas d'erreur et de fin de fichier
 
 🎯 Cas d'Usage
+```
 c
 int fd = open("fichier.txt", O_RDONLY);
 char *line;
@@ -68,6 +69,8 @@ while ((line = get_next_line(fd)) != NULL)
     free(line);
 }
 close(fd);
+
+```
 💡 Compétences Développées
 Programmation système avec les descripteurs de fichier
 
